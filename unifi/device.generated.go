@@ -98,9 +98,9 @@ type Device struct {
 	UbbPairName                 string                            `json:"ubb_pair_name,omitempty"` // .{1,128}
 	Volume                      int                               `json:"volume,omitempty"`        // [0-9]|[1-9][0-9]|100
 	WLANOverrides               []DeviceWLANOverrides             `json:"wlan_overrides,omitempty"`
-	X                           float64                           `json:"x,omitempty"`
-	XBaresipPassword            string                            `json:"x_baresip_password,omitempty"` // ^[a-zA-Z0-9_.\-!~*'()]*
-	Y                           float64                           `json:"y,omitempty"`
+	// X                           float64                           `json:"x,omitempty"`
+	// XBaresipPassword            string                            `json:"x_baresip_password,omitempty"` // ^[a-zA-Z0-9_.\-!~*'()]*
+	// Y                           float64                           `json:"y,omitempty"`
 }
 
 func (dst *Device) UnmarshalJSON(b []byte) error {
