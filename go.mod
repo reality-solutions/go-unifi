@@ -1,12 +1,15 @@
-module github.com/paultyng/go-unifi
+module github.com/realitysolutions/go-unifi
 
-go 1.18
+go 1.21
+
+toolchain go1.22.2
 
 require (
 	github.com/golangci/golangci-lint v1.55.2
 	github.com/goreleaser/goreleaser v1.21.2
 	github.com/hashicorp/go-version v1.6.0
 	github.com/iancoleman/strcase v0.3.0
+	github.com/paultyng/go-unifi v1.33.0
 	github.com/stretchr/testify v1.8.4
 	github.com/tj/assert v0.0.3
 	github.com/ulikunitz/xz v0.5.11
@@ -388,7 +391,6 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gotest.tools/v3 v3.1.0 // indirect
 	honnef.co/go/tools v0.4.6 // indirect
 	mvdan.cc/gofumpt v0.5.0 // indirect
 	mvdan.cc/interfacer v0.0.0-20180901003855-c20040233aed // indirect
