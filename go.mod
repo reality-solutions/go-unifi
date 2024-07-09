@@ -1,4 +1,4 @@
-module github.com/realitysolutions/go-unifi
+module github.com/reality-solutions/go-unifi
 
 go 1.21
 
